@@ -64,9 +64,9 @@ Usage
 
     In [1]: import cpbd
 
-    In [2]: from scipy import ndimage
+    In [2]: from scipy.misc import imread
 
-    In [3]: input_image = ndimage.imread('/tmp/LIVE_Images_GBlur/img4.bmp', mode='L')
+    In [3]: input_image = imread('/tmp/LIVE_Images_GBlur/img4.bmp', mode='L')
 
     In [4]: cpbd.compute(input_image)
     Out[4]: 0.75343203230148048
@@ -76,7 +76,7 @@ Development
 
 ::
 
-    $ git clone git@github.com:0x64746b/python-cpbd.git
+    $ git clone https://github.com/inscite/python-cpbd.git
     Cloning into 'python-cpbd'...
     $ cd python-cpbd
     $ pip install -U '.[dev]'
