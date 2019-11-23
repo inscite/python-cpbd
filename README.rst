@@ -64,7 +64,7 @@ Usage
 
     In [1]: import cpbd
 
-    In [2]: from scipy.misc import imread
+    In [2]: from imageio import imread
 
     In [3]: input_image = imread('/tmp/LIVE_Images_GBlur/img4.bmp', mode='L')
 

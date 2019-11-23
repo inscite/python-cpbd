@@ -64,6 +64,7 @@ setuptools.setup(
         'numpy>=1.11.1',
         'scikit-image>=0.12.3',
         'scipy>=0.18.1',
+        'imageio>=2.5.0',
     ],
     tests_require = ['pytest'],
     extras_require = {
